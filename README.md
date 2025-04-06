@@ -79,8 +79,21 @@ mkdir git
 cd git
 ```
 Step 5 - Cloning the Repo:
+```
+git clone git@github.com:Rafaelatff/exp73-wsl-docker-pipeline.git
+```
 
+## VS Code
 
+Step 1 - Download and install VS Code.
+
+[Download](https://code.visualstudio.com/docs/) and install VS Code. Make sure during installation to add the path inside vscode.
+
+Step 2 - Open files on VS Code.
+On WSL, go to the project folder and type:
+```
+code .
+```
 ## CI CD Pipeline
 
 ### Jenkins
