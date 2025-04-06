@@ -55,6 +55,32 @@ sudo usermod -aG docker $USER
 
 ## Git - versionning control
 
+Step 1 - Generate RSA SSH Key
+```
+ssh-keygen -t rsa -b 4096 -C "your-email@example.com"
+```
+Press Enter to save key on default location (~/.ssh/id_rsa).
+Type passphrase or empty for no passphrase.
+
+Step 2 - Copy the public key to GitHub:
+```
+cat ~/.ssh/id_rsa.pub
+```
+Then add key to GitHub [keys](https://github.com/settings/keys).
+
+Step 3 - Connect with GitHub:
+```
+ssh -T git@github.com
+yes
+```
+Step 4 - Creating git folder (only required once):
+```
+mkdir git
+cd git
+```
+Step 5 - Cloning the Repo:
+
+
 ## CI CD Pipeline
 
 ### Jenkins
