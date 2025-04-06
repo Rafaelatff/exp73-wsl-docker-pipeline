@@ -1,0 +1,1 @@
+Nível 2 - nível de conectividade. É um duto que passa informação de um lado para o outro.
